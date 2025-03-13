@@ -1,0 +1,54 @@
+/* Based on net_style.css */
+body {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222; /* Darker header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ddd; /* Light text */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+/* Dark theme styles (already included in net_style.css, but added for completeness) */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+h1.dark-theme, h2.dark-theme {
+    color: #fff;
+}
